@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon CV - Idris Bozor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="page-top"></div>
+    <nav>
+        <button id="menu-btn" aria-expanded="false" aria-label="Ouvrir le menu">
+        ☰ Menu
+        </button>
+
+        <div id="menu-links">
+            <a href="#presentation">Présentation</a>
+            <a href="#formation">Formation</a>
+            <a href="#experience">Expérience</a>
+            <a href="#projets">Projets</a>
+            <a href="#coordonnees">Coordonnées</a>
+            <a href="#competences">Compétences</a>
+            <a href="#centres-interet">Centres d'intérêt</a>
+        </div>
+
+        <!-- Bouton dark mode -->
+        <button id="dark-mode-btn" aria-label="Activer le mode sombre">
+            🌙
+        </button>
+    </nav>
+
+    <div id="overlay"></div>
+
+    <main>
+
+        <header>
+            <h1>PORTFOLIO – CANDIDATURE EN FORMATION INFORMATIQUE</h1>
+            <p>
+                <strong>Statut :</strong> Étudiant •
+                <strong>Rentrée :</strong> Septembre 2026
+            </p>
+        </header>
+
+        <section id="presentation">
+            <h2>Présentation</h2>
+            <p class="important">
+                Titulaire d'un BTS Gestion de la PME, je me réoriente avec détermination vers le développement web et applicatif. 
+                Mon stage en tant qu'assistant informatique m'a permis de m'initier à la programmation via Python 
+                et a pleinement confirmé mon choix d'orientation. 
+                Je souhaite approfondir mes compétences au sein d'une formation en informatique exigeante et structurée.
+            </p>
+        </section>
+
+        <section id="formation">
+            <h2>Formation</h2>
+
+            <article>
+                <h3>Formation en Informatique</h3>
+                <p>Projet de formation, <em>Rentrée 2026</em></p>
+            </article>
+
+            <article>
+                <h3>BTS Gestion de la PME (Obtenu)</h3>
+                <p>Lycée Marcel Pagnol, <em>2022-2025, Athis-Mons 91</em></p>
+            </article>
+
+            <article>
+                <h3>Baccalauréat professionnel Gestion Administration (Obtenu)</h3>
+                <p>Lycée Gustave Eiffel, <em>2018-2021, Ermont 95</em></p>
+            </article>
+        </section>
+
+        <section id="experience">
+            <h2>Expérience professionnelle</h2>
+
+            <article>
+                <h3>Préparateur de commande - CDI étudiant</h3>
+                <p><em>Novembre 2024 - ACTUELLEMENT EN POSTE</em></p>
+                <ul>
+                    <li>Préparation de commande vocale</li>
+                    <li>Picking et constitution de palettes destinées aux magasins Lidl avec optimisation du chargement</li>
+                    <li>Conduite de chariot élévateur CACES 1B</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Vendeur - Stage</h3>
+                <p><em>Janvier 2024 - Mars 2024</em></p>
+                <ul>
+                    <li>Utilisation de logiciels de gestion pour la facturation et les devis</li>
+                    <li>Relation client et encaissement</li>
+                    <li>Gestion des stocks et réception des commandes avec contrôle qualité</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Assistant informatique - Stage</h3>
+                <p><em>Mai 2023 - Juin 2023</em></p>
+                <ul>
+                    <li>Développement Python : Conception d'un script de Web Scraping pour l'extraction automatisée de tarifs prestataires vers des fichiers CSV dans le cadre d'une veille concurrentielle</li>
+                    <li>Projet Personnel : Création d'un prototype de jeu Pac-Man sur VS Code en Python avec gestion de la logique de mouvement et des collisions</li>
+                    <li>Gestion Administrative : Réalisation de devis, factures</li>
+                </ul>
+            </article>
+        </section>
+
+                <section id="projets">
+            <h2>Mes Projets</h2>
+
+            <!-- CARTE 1 : Web Scraper -->
+            <article class="carte-projet">
+                <div class="carte-projet__header">
+                    <span class="carte-projet__emoji">🐍</span>
+                    <h3 class="carte-projet__titre">Web Scraper Python</h3>
+                </div>
+
+                <p class="carte-projet__description">
+                    Script Python qui extrait automatiquement le contenu d'un site web
+                    et l'exporte dans un fichier CSV daté. Développé pour
+                    automatiser une veille concurrentielle.
+                </p>
+
+                <div class="carte-projet__technologies">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">BeautifulSoup</span>
+                    <span class="tech-tag">requests</span>
+                    <span class="tech-tag">CSV</span>
+                </div>
+
+                <a href=""
+                   target="_blank"
+                   class="carte-projet__lien">
+                    Voir le code sur GitHub →
+                </a>
+            </article>
+
+            <!-- CARTE 2 : à venir -->
+            <article class="carte-projet carte-projet--bientot">
+                <div class="carte-projet__header">
+                    <span class="carte-projet__emoji">🚀</span>
+                    <h3 class="carte-projet__titre">Nouveaux projets à venir</h3>
+                </div>
+
+                <p class="carte-projet__description">
+                    Mes prochaines réalisations et applications en cours de développement 
+                    apparaîtront ici. Passionné et en apprentissage constant, je continue 
+                    d'enrichir mon portfolio au fil de mon apprentissage.
+                </p>
+
+                <div class="carte-projet__technologies">
+                    <span class="tech-tag">En veille</span>
+                    <span class="tech-tag">Git / GitHub</span>
+                </div>
+
+                <span class="carte-projet__bientot">🔜 Prochainement</span>
+            </article>
+        </section>
+    </main>
+
+    <aside>
+        <section id="coordonnees">
+            <h2>Coordonnées</h2>
+            <ul>
+                <li>Idris Bozor</li> 
+                <li>23 ans</li>  
+                <li><a href="mailto:idris.bozor@gmail.com">idris.bozor@gmail.com</a></li>
+                <li>Mennecy 91</li>
+                <li>Permis en cours</li>
+                <li><strong>Mobilité:</strong> Île-de-France</li>
+            </ul>
+
+            <div class="liens-sociaux">
+                <a href="" target="_blank" class="btn-social github">
+                    Code de ce Portfolio
+                </a>
+            </div>
+        </section>
+
+        <section id="competences">
+            <h2>Compétences</h2>
+
+            <h3>Informatique</h3>
+            <p>
+                Initiation à la programmation Python, utilisation de VS Code, 
+                logique de Web Scraping et extraction de données.
+            </p>
+
+            <h3>Environnement</h3>
+            <ul>
+                <li>VS Code</li>
+                <li>Windows</li>
+            </ul>
+
+            <h3>Bureautique</h3>
+            <p>Pack Office: Word, Excel</p>
+            <p>Utilisation de logiciels de gestion ERP et facturation</p>
+            
+            <h3>Qualités</h3>
+            <ul>
+                <li>Autonome</li>
+                <li>Rigoureux</li>
+                <li>Curieux</li>
+                <li>Esprit d'équipe</li>
+            </ul>
+
+            <h3>En cours d'apprentissage</h3>
+            <ul>
+                <li>Python: apprentissage autonome</li>
+                <li>HTML/CSS/JS: apprentissage autonome</li>
+                <li>C#: apprentissage autonome</li>
+            </ul>
+
+            <h3>Langue</h3>
+            <p>Anglais B1</p>
+        </section>
+
+        <section id="centres-interet">
+            <h2>Centres d'intérêt</h2>
+            <ul>
+                <li>Jeux vidéo</li>
+                <li>Montage PC</li>
+                <li>Formation en ligne OpenClassrooms</li>
+                <li>Vulgarisation scientifique</li>
+                <li>Badminton: 1 an</li>
+            </ul>
+        </section>
+    </aside>
+    
+    <script src="script.js"></script>
+    <a href="#page-top">Retour en haut</a>
+
+    <footer>
+        <p>&copy; 2026 - Idris Bozor - CV réalisé en HTML/CSS/JavaScript</p>
+    </footer>
+</body>
+</html>
